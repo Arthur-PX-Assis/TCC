@@ -1,0 +1,29 @@
+.divstyle{
+    background-color: rgb(153, 153, 233); 
+    width: 100%; height: 100vh;
+    position: relative;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:11;
+    width:100%;
+    height:100%;
+}
+h1,h2{
+    padding-left: 25px; padding-top: 25px;
+}
+.circlediv{
+    text-align: center; font-size: 30px;
+    height: 550px; width: 25%;
+    display: inline-block;
+    position: absolute;
+}
+a{
+    text-decoration: none; color: black;
+}
+label{
+    display: block; float: left; width: 50px; font-size: 25px; padding: 12.5px;
+}
+input{
+    width: 150px; margin-left: 75px; margin-right: 15px; height: 30px;
+}

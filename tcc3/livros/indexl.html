@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylel.css">
+    <title>Menu</title>
+    <script>
+        function inserir(){
+            window.location = 'addLivro.php'
+        }
+        function pesquisar(){
+            window.location = 'listarLivro.php'
+        }
+        function listar(){
+            window.location = 'listarLivro.php'
+        }
+    </script>
+    <style>
+        button,    .x {
+            border-radius: 10px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="divstyle">
+        <fieldset>
+            <legend>Menu</legend>
+            <a href="../index.html"><button>Menu geral</button></a><br><br>
+        </fieldset>
+        <h1>Olá! O que deseja?</h1>
+        <div class="circlediv" style="height: 500px; width: 25%; background-color: rgb(100, 100, 216); margin-left: 1.75%; bottom: 25px; top: 25%;" onclick="inserir()">
+            <br><br>
+            <img src="../adicionar.png" alt="" style="height: 120px; width: 120px;">
+            <h3>Inserir livro</h3>
+        </div>
+        <div class="circlediv" style="height: 500px; width: 25%; background-color: rgb(99, 99, 192); left: 29.25%; bottom: 25px; top: 25%;" onclick="pesquisar()">
+            <br><br>
+            <img src="../lupa.png" alt="" style="height: 120px; width: 120px;">
+            <h3>Pesquisar livro</h3>
+        </div>
+        <div class="circlediv" style="height: 500px; width: 25%; background-color: rgb(100, 100, 216); left: 56.75%; bottom: 25px; top: 25%;" onclick="listar()">
+            <br><br>
+            <img src="../lista.png" alt="" style="height: 120px; width: 120px;">
+            <h3>Listar livros</h3>
+        </div>
+        
+    </div>
+</body>
+
+</html>
